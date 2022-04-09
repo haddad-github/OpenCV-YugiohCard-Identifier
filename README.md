@@ -15,9 +15,9 @@ Typical usage, in order:
 ![explain2](https://user-images.githubusercontent.com/68672661/162575006-48317c8f-de32-444a-99e0-30053a5a8b68.jpg)
 1) Click "Browse" and locate your deck's image file and then click "Load deck"; it'll show you a preview of the deck you loaded in a 300x300 format
 
-2) Choose the card dimensions theh press "Confirm dimensions". You have to use some software or open it on Paint and drag across a card to get the width x height of a card on your image, as shown below. Default values (by entering 0) are for Master Duel (1920x1080), which has a format is 64x94.
+2) Choose the card dimensions theh press "Confirm dimensions". You have to use some software or open it on Paint and drag across a card to get the width x height of a card on your image, as shown below. Default values (by entering 0) are for Master Duel (1920x1080), which has a format is 64x94. I use Greenshot and highlight the card as accurately as I can, to quickly get the dimensions of the card.
 
- ![explain1](https://user-images.githubusercontent.com/68672661/162575085-b3c2f393-276f-4407-8a74-335a50783c88.jpg)
+![explain1](https://user-images.githubusercontent.com/68672661/162575085-b3c2f393-276f-4407-8a74-335a50783c88.jpg)
 
 3) Choose the accuracy coefficient then press "Confirm coeff". For cleaner formats (that don't have special tags that obstruct the card's image like in Master Duels), you can use something around 0.80 for better chances at getting the full list of cards. The higher you go, the more certainty is required to pass that threshold and so you'll end up with less cards being identified. For Master Duel format, I would advise something around 0.62 - 0.70, the reason being that Master Duel decks have the "N/R/SR/UR" tags on the cards, which throws off object detection to some significant extent, so you'll need to compensating by reducing the accuracy coefficient threshold.
 
